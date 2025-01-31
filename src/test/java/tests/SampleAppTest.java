@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 public class SampleAppTest {
     @Test
     public void sampleLoginPageTest(){
+
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         WebDriver driver= new ChromeDriver();
         driver.get("https://uitestingplayground.com/sampleapp");
